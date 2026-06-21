@@ -1,18 +1,2 @@
-import pandas as pd
-data = { 'Age': [30, 25, 35, 40, 28],'Attrition': ['Yes', 'No', 'Yes', 'No', 'No'],
-    'BusinessTravel': ['Travel_Rarely', 'Travel_Frequently', 'Travel_Rarely', 'Travel_Frequently', 'Travel_Rarely'],
-    'Department': ['Sales', 'Research & Development', 'Research & Development', 'Research & Development', 'Research & Development'],
-    'EducationField': ['Life Sciences', 'Life Sciences', 'Other', 'Life Sciences', 'Medical']
-}
-
-df = pd.DataFrame(data)
-df.head()
-
-pd.set_option('display.max_columns', 5)
-pd.set_option('display.max_rows', 10)
-
-df[['Age', 'Attrition', 'Department']].head()
-df.head()
-from google.colab import data_table
-data_table.enable_dataframe_formatter()
-df.head()
+mini project 
+data analytics using python project 
